@@ -10,11 +10,11 @@
 if (description && ai)
   .post-ai-description
     .ai-title
-      i.anzhiyufont.anzhiyu-icon-bilibili
+      i.heofont.heo-icon-bilibili
       .ai-title-text AI-摘要
       if (switchBtn)
         #ai-Toggle 切换
-      i.anzhiyufont.anzhiyu-icon-arrow-rotate-right
+      i.heofont.heo-icon-arrow-rotate-right
       #ai-tag
         if mode == "tianli"
           = "Tianli GPT"
@@ -38,7 +38,7 @@ if (description && ai)
         let refreshNum = 0
         // 记录上一次传递给aiAbstract的参数
         let prevParam;
-        const aiTitleRefreshIcon = document.querySelector(".ai-title .anzhiyufont.anzhiyu-icon-arrow-rotate-right")
+        const aiTitleRefreshIcon = document.querySelector(".ai-title .heofont.heo-icon-arrow-rotate-right")
         const explanation = document.querySelector(".ai-explanation");
         const post_ai = document.querySelector(".post-ai-description");
         let ai_str = "";
