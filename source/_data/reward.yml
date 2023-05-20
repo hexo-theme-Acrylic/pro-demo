@@ -1,0 +1,5 @@
+- class_name: 赞赏
+  reward_list:
+    - name: 晚安
+      amount: 100
+      datatime: 2022-02-08

@@ -1,0 +1,110 @@
+- class_name: 贡献者名单
+  class_desc: 贡献了本主题的大佬们
+  link_style: site-card
+  link_list:
+    - name: 朤
+      link: https://langblog.vsc.icu/
+      avatar: https://img1.acrylic.org.cn/2023/04/30/644e554924d2f.webp
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/64689202c48f8.webp
+      descr: 分享知识，传授快乐
+      tag: 技术
+      color: vip
+    - name: Marcus
+      link: https://blog.marcus233.top/
+      avatar: https://img01.anzhiy.cn/useruploads/8/2023/01/14/63c23f83f0e11.png
+      descr: 人间值得,未来可期
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/646892313e6f4.webp
+      tag: 技术
+      color: vip
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 分享设计与科技生活
+      tag: 技术
+      color: vip
+    - name: Shine
+      link: https://blog.shineyu.cn/
+      avatar: https://blog.shineyu.cn/img/shineyu_avatar.webp
+      siteshot: https://photo.acrylic.org.cn/uploads/2023/04/30/644e508753b57.webp
+      descr: 热爱生活点滴，分享时刻精彩。
+      tag: 技术
+      color: vip
+    - name: Rootlex
+      link: https://blog.nalex.top
+      avatar: https://bu.dusays.com/2023/01/25/63d130a6ce9ea.jpg
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/646890d79bd42.webp
+      descr: 寒蝉黎明之时，便是重生之日
+      tag: 技术
+      color: speed
+    - name: Gtwxxh
+      link: https://blog.gtwxxh.cn
+      avatar: https://cdn.staticaly.com/gh/gtwxxh666/pic@main/1/user.JPG
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/646897c8b96f1.webp
+      descr: 扣首问路，码梦为生
+      tag: 技术
+      color: vip
+    - name: 轻笑Chuckle
+      link: https://www.chuckle.top
+      avatar: https://cdn1.tianli0.top/npm/chuckle-js-css/chuckle/head.webp
+      descr: 宁静致远,倾尘轻笑
+      siteshot: https://cdn1.tianli0.top/npm/chuckle-js-css/link/chuckle.webp
+      tag: 技术
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/64689132d3b4c.webp
+      descr: 进一寸有进一寸的欢喜。
+      tag: 技术
+    - name: 贰猹的小窝
+      link: https://noionion.top/
+      avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
+      siteshot: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/noionion.top.png
+      tag: 技术
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+      tag: 技术
+    - name: 张时贰
+      link: https://zhangshier.vip
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1310446718&s=5
+      descr: 环转码，爱敲代码的小张！
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/6468919358f53.webp
+      tag: 技术
+    - name: Cartafi
+      link: https://www.staltly.cn/
+      avatar: https://cdn.skypro.cartafi.cn/startly/avatar.webp
+      siteshot: https://img1.acrylic.org.cn/2023/05/20/6468905e781a6.webp
+      descr: 互联网中的寂静之地
+      tag: 技术
+      color: vip
+    - name: Adil
+      link: https://adil.com.cn
+      avatar: https://adil.com.cn/img/touxiang.jpg
+      descr: 生命不死，折腾不止
+      siteshot: https://adilphoto-1302748124.cos.ap-beijing.myqcloud.com/2021-03-19-adills.jpg
+      tag: 技术
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      siteshot: https://npm.elemecdn.com/akilar-friends@latest/siteshot/akilar.top.jpg
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 欢迎光临糖果屋
+      tag: 技术
+- class_name: Acrylic的友联
+  class_desc: 支持友联哦
+  link_style: item
+  link_list:
+    - name: 示例
+      link: https://xxx.xxx/
+      avatar: https://img1.acrylic.org.cn/2023/04/16/643b6a036a2cb.webp
+      descr: 这是一个示例
+- class_name: 失联友联
+  class_desc: 没有本站的友联
+  link_style: mini-item
+  link_list:
+    - name: 示例
+      link: https://xxx.xxx/
+      avatar: https://img1.acrylic.org.cn/2023/04/16/643b6a036a2cb.webp
+      descr: 这是一个示例
