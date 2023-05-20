@@ -1,0 +1,34 @@
+-
+  var options = {
+    prev_text: '<i class="fas fa-chevron-left fa-fw"></i><div class="pagination-prev">上页</div>',
+    next_text: '<div class="pagination-next">下页</div><i class="fas fa-chevron-right fa-fw"></i>',
+    mid_size: 1,
+    escape: false
+  }
+
+if is_post() 
+  - let prev = theme.post_pagination === 1 ? page.prev : page.next
+  - let next = theme.post_pagination === 1 ? page.next : page.prev
+  nav#pagination.pagination-post
+    if(prev)
+      - var hasPageNext = next ? 'pull-left' : 'pull-full'
+      .prev-post(class=hasPageNext)
+        a(href=url_for(prev.path) title=prev.title)
+          .pagination-info
+            .label=_p('pagination.prev')
+            .prev_info=prev.title
+            //- Display the article introduction on homepage
+          
+    if(next)
+      - var hasPagePrev = prev ? 'pull-right' : 'pull-full'
+      .next-post(class=hasPagePrev)
+        a(href=url_for(next.path) title=next.title)
+          .pagination-info
+            .label=_p('pagination.next')
+            .next_info=next.title
+else
+  nav#pagination
+    .pagination
+      if is_home()
+        - options.format = 'page/%d/#content-inner'
+      !=paginator(options)
